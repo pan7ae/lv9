@@ -89,7 +89,7 @@ header #head div:nth-child(2) {
 }
 
 header #head div:nth-child(2) h1 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -265,7 +265,7 @@ table {
   border: 1px solid grey;
   width: 60%;
   border-collapse: collapse;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -286,7 +286,7 @@ table th {
 }
 
 h2 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -296,7 +296,7 @@ h2 {
 }
 
 h3 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -306,7 +306,7 @@ h3 {
 }
 
 p {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -408,7 +408,7 @@ p {
   cursor: pointer;
   display: none;
   color: #eeeff1;
-  font-family: verdana;
+  font-family: verdana, sans-serif;
   font-size: 40px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -495,7 +495,7 @@ footer .container .footer .left {
 }
 
 footer .container .footer .left div:nth-child(1) {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
@@ -504,7 +504,7 @@ footer .container .footer .left div:nth-child(1) {
 }
 
 footer .container .footer .left div:nth-child(2) {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
