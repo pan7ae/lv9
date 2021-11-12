@@ -375,8 +375,10 @@ footer {
 				.social-network {
 					margin: 0 11px;
 					display: inline;
-					img {
-						height: 40px;
+					a {
+						img {
+							height: 40px;
+						}
 					}
 				}
 			}
@@ -425,7 +427,22 @@ footer {
 			}
 		}
 	}
-	// .to-hide {
-	// 	display: none;
-	// }
+
+	.stats {
+		flex-direction: column;
+		.stat {
+			table {
+				width: 100%;
+			}
+		}
+		div:nth-child(2) {
+			margin-top: 32px;
+		}
+	}
+
+	.footer {
+		.right {
+			margin-right: 60px;
+		}
+	}
 }
