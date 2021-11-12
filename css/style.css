@@ -476,7 +476,7 @@ footer .container .footer .right .social-network {
   display: inline;
 }
 
-footer .container .footer .right .social-network img {
+footer .container .footer .right .social-network a img {
   height: 40px;
 }
 
@@ -533,5 +533,20 @@ footer .container .footer .left div:nth-child(2) {
 @media screen and (max-width: 1024px) {
   header #head div:nth-child(1) img {
     display: none;
+  }
+  .stats {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .stats .stat table {
+    width: 100%;
+  }
+  .stats div:nth-child(2) {
+    margin-top: 32px;
+  }
+  .footer .right {
+    margin-right: 60px;
   }
 }
